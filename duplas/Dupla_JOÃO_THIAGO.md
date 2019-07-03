@@ -39,6 +39,42 @@ O mantenedor avalia pessoalmente a qualidade do código e conta também com a ut
 
 [Blog](https://blog.globo.com/)
 
+## Atividade 03
+
+1) (Obrigatória) Experimente os commandos do git em algum repositório de código. Utilize os commandos commit, push, pull, checkout, log, shortlog, etc. Descreva o que cada um desses comandos faz.
+Commit: confirmação de alterações feitas no código; Push: mandar para o repositório as mudanças realizadas; Log: Visualizar o histórico de commits; Shortlog: Sumário de commits mostrando a primeira linha por autor;
+2) Baixe o site da disciplina na sua máquina local, e rode um comando para imprimir uma saída de terminal similar a esta:
+•	Uzuma@DESKTOP-OI8K98K MINGW64 ~/tesl (master)
+•	    10  AndreMP93 <andremirandap93@gmail.com>
+•	    12  AugustofCravo <49079453+AugustofCravo@users.noreply.github.com>
+•	    15  Caio Shimada Rabello <xcaiosr@gmail.com>
+•	    11  CaioMFRodrigues <caiomfrodrigues@gmail.com>
+•	    43  Cassio Batista <cassio.batista.13@gmail.com>
+•	     6  EdsonECS <49080256+EdsonECS@users.noreply.github.com>
+•	     1  Elgrably <isaacelgrably@hotmail.com>
+•	     1  Eric Pereira <37813631+eriicf@users.noreply.github.com>
+•	     2  Eric Pereira <eric.cbcc@gmail.com>
+•	     7  Facomp-adm <you@example.com>
+•	    11  Filipe Saraiva <mail@filipesaraiva.info>
+•	    71  Filipe Saraiva <saraiva@ufpa.br>
+•	     5  Gabriel Quinto <gabrielquintoand@gmail.com>
+•	   148  Gustavo Pinto <gustavohenrique.86@gmail.com>
+•	     2  Gustavo Pinto <mail@gustavopinto.org>
+•	     5  João Ferreira <lubien1996@gmail.com>
+•	     2  João Pedro Moraes <joaopedromoraes@outlook.com>
+•	    12  Julio Cesar <julio.developer10@gmail.com>
+•	     8  Kelly Costa <kellydosocorro@gmail.com>
+•	     5  Lakshamana <guitrompa1@gmail.com>
+•	    11  Leonardo Christian <leonardo.chfc@gmail.com>
+•	     4  Lucas Gabriel de Souza <lucassouzaufpa@gmail.com>
+•	     9  Lucas Monteiro <tavares.lucas1996@gmail.com>
+
+
+•	Fazer um pull-request que melhore a documentação de algum projeto (em português ou inglês)
+Lang++ (Tradução da Documentação para PT-BR)
+https://github.com/fibanneacci/langplusplus/pull/26
+
+
 ## Atividade 04
 
 1. Selecione e identifique em um determinado projeto de software livre se a página inicial ou alguma página logo em seguida tem (ou não) links para instação, documentação, documentação traduzida, e como contribuir. Coloque o projeto avaliado e os links encontrados (ou não);
@@ -56,6 +92,28 @@ O mantenedor avalia pessoalmente a qualidade do código e conta também com a ut
 3. Teste a documentação (por exemplo, siga as instruções de instalação) e sumarize os problemas encontrados;
 
 Globo.com Open Source; No README os passos de instalação foram bem demonstrados porém os desenvolvedores esqueceram da necessidade de um token da API do GitHub para certas funcionalidades de sua aplicação até que um usuário reportou e eventualmente uma explicação fora adicionada.
+
+## Atividade 05
+
+1)	Justifique o que acontece se um projeto de software não tiver nenhuma licença definida.
+  Não terá como ser comercializado ou usado publicamente pois se tratará de um projeto com direitos exclusivos do autor do projeto e sujeito a proteções de uso e direitos autorais.
+2) Acesse o site choosealicense, e estude ao menos cinco licenças. Justifique porque o site da disciplina tem a licença que tem.
+Licença Apache 2.0 
+Licença permissiva que permite condições principais que requer preservação dos direitos autorais. Usado para distribuição, possui garantia e para uso comercial.
+GNU General Public License v.3.0
+Licença copyleft, trabalhos que derivam de um produto que são licenciados pela GPL, só podem ter seus projetos distribuídos se utilizarem a mesma licença. São usados para projetos de software livre e de código aberto.
+Licença MIT
+Uma licença curta e permissiva com as condições que requer preservação dos direitos autorais. Sem cláusula de endosso e que quem possuir uma cópia do software e seus arquivos de documentação pode lidar com eles sem qualquer tipo de restrição.
+Licença ISC
+Uma licença permissiva que permite as pessoas fazerem o que quiser com o seu código com a atribuição propicia e sem garantia. Equivalente ao MIT e BSD 2-Clause. 
+Licença pública Mozilla
+Licença mantida pela Mozilla Foundation, similar ao copyleft, porém não tão rígida quanto a sua distribuição de trabalhos que derivam do seu código fonte.  Porém, o mesmo deverá ser mantido sob a mesma licença. 
+Licença do Site da Disciplina:
+Usa o creative commons: A disciplina não possui código fonte e seu propósito é exclusivamente para fins educativos. Logo o uso dessa licença é tranquilamente justificável. 
+
+3. Procure por projetos de software que utilize uma licença que não deveria ser empregada em projetos de software v3.0
+https://github.com/williamd1k0/nibble/pull/1
+
 
 ## Atividade 06
 
@@ -117,8 +175,20 @@ Knex
   foi resolvido rapidamente ou demorou? rapidamente
   houve algum impecilho técnico ou social para essa resolução? não
   quem resolveu o problema foi um desenvolvedor experiente, novato ou algum usuário? desenvolvedor experiente
+  
+  ## Atividade 08
+  
+ 1. Explique o são Linters e qual a sua importância ?
+São recursos e ferramentas para análise de código. O objetivo é achar problemas na hora de compilar, ou problemas de estilos. Seu foco é manter o padrão do código para projetos que possuem um número grande de contribuintes. Para isso o Linter tem o propósito de facilitar a revisão do código sem se preocupar com o estilo e boas práticas, além de sua sintaxe.
+ 2. Indique um guia de boas práticas de codificação em linguagem de programação (exceto: Python, PHP e Java):
+Haskell: https://kowainik.github.io/posts/2019-02-06-style-guide
+C++: https://github.com/kelvins/Boas-Praticas-Cplusplus
+3. Indique um guia de boas práticas de codificação em frameworks de linguagem de programação.
+  Ruby on Rails: https://guides.rubyonrails.org/
 
-## Atividade 09
+
+
+  ## Atividade 09
 
 - Procure um projeto e indique um commit que contenha indícios da metodologia TDD (Test Driven Development), ou seja, o desenvolvedor enviou o código fonte com o teste no mesmo commit.
 
@@ -146,6 +216,21 @@ A refatoração foi sustentada pelo fato que a equipe de desenvolvimento possuia
 - Procure um projeto e aplique refactor em um código fonte, informe ao projeto com campo descrição do commit a técnica de refactor usada, envie sua correção ao projeto através de pull request.
 
 [Update deprecated Stream.filter_map/3 to Stream.filter/2 + Stream.map/2](https://github.com/ybod/elixir_flow/pull/1/commits/450b80f2a15286acdc56e685f76df05e57c6f7d7)
+## Atividade 10 
+
+•	Por que utilizar testes unitários?
+A realização de testes unitários fazem com que crie uma longevidade no uso de um software após o método; Faz com que o software em construção se torne mais sólido com menos erros e melhor desempenho a longo prazo. Além do mais qualquer nova funcionalidade deverá ser submetida a testes unitários caso haja necessidade de implementar dentro de um projeto: cria confiabilidade no código.
+•	Quais vantagens de utilizar integração contínua?
+Criação de um fluxo de trabalho contínuo que visa rotineiramente em um repositório compartilhado a verificação do projeto; Identificação rápida de falhas; Agilidade em distribuir atualizações
+## Atividade 11
+
+1. Explique detalhadamente qual é a diferença entre as métricas "truck factor" e "heroes" 
+  Truck Fator apresenta uma estimativa do número mínimo de desenvolvedores, incluindo o responsável, que contribuem para o projeto em serem atingidos por um caminhão, deixando o projeto incapaz de dar andamento. A Heroes representa um número grande de contribuições são feitas por uma porcentagem pequena de desenvolvedores, onde o responsável não faz parte dessa porcentagem.
+2. Cite pelo menos tês outras métricas de saúde de projetos de software livre. Resp.:
+  Erros de sintaxe; diminuir excessivas inspeções em massa; Quantidade de pessoas que tem participação direta do projeto.
+3. Cite pelo menos três métricas que não são indicadas para avaliar a saúde de um projeto de software livre? 
+  Linguagem de Programação, Licença e Commits feitos em um determinado período de desenvolvimento.
+
 
 ## Atividade 12
 
